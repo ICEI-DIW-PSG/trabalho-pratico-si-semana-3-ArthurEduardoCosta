@@ -7,6 +7,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="site-header">
+    <div class="logo">LEGO Batman</div>
+    <form class="search-form" action="#" method="get">
+      <input type="text" placeholder="Pesquisa..." name="q" required>
+      <button type="submit">🔍</button>
+    </form>
+    <nav class="header-actions">
+      <a href="#" class="btn">Login</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <nav class="side-nav">
+      <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Artigos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <h1>LEGO Batman</h1>
+        <p>O Cavaleiro das Trevas em versão LEGO!</p>
+        <a href="#" class="btn">Conheça Mais</a>
+      </section>
+
+      <section class="articles">
+        <h2>Artigos</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="https://static.wikia.nocookie.net/the-lego-batman-movie/images/a/a8/The_Batcave.png/revision/latest/scale-to-width-down/1200?cb=20160901142708" alt="Artigo 1">
+            <h3>A Batcaverna</h3>
+            <p>Curiosidades sobre a Batcaverna!</p>
+          </article>
+
+          <article class="card">
+            <img src="https://hype.my/wp-content/uploads/2017/01/batman-lego-movie.jpeg" alt="Artigo 2">
+            <h3>Vilões em Lego</h3>
+            <p>Coringa, Arlequina e muitos outros mas em Lego!</p>
+          </article>
+
+          <article class="card">
+            <img src="https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABX22eQkAjt_KkCBVEc-lTf_b4g66felyflvkrF7HyqSe_SgCAiwZUV54L5-mnj7M7_BaJvH_dP0WVEb3Yo4wrOCOXM5EQAnC6woz.jpg?r=d3c" alt="Artigo 3">
+            <h3>Heróis aliados</h3>
+            <p>Robin, Batgirl e toda a Liga da Justiça em Lego!</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h2>Formulário Contato</h2>
+        <form action="#" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>© Site feito apenas por um estudante querendo os seus 2 pontos.</p>
+  </footer>
 </body>
 </html>

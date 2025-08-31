@@ -10,17 +10,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Arthur Eduardo de Oliveira Costa
+- Matricula:902839
+- Proposta de projeto escolhida: Site do lego batman
+- Breve descrição sobre seu projeto: um site que fala sobre os jogos do Lego Batman
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  COLOQUE A IMAGEM AQUI >> ![alt text](<print do wiriframe.png>)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  COLOQUE A IMAGEM AQUI >> ![alt text](<outra print de atividade de Diw.png>)

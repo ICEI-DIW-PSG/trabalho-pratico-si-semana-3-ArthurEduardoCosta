@@ -1,3 +1,132 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
 body {
-    background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #f5f5f5;
+}
+
+a { text-decoration: none; color: inherit; }
+
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.logo { font-size: 1.5rem; font-weight: bold; color: #ffeb3b; }
+
+.search-form {
+  display: flex;
+  gap: .5rem;
+}
+.search-form input {
+  padding: .5rem;
+  border: none;
+  border-radius: 4px;
+}
+.search-form button {
+  padding: .5rem 1rem;
+  background: #ffeb3b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header-actions .btn {
+  padding: .5rem 1rem;
+  background: #ffeb3b;
+  color: #000;
+  border-radius: 4px;
+}
+
+/* Layout */
+.layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  min-height: 100vh;
+}
+
+/* Side nav */
+.side-nav {
+  background: #1c1c1c;
+  padding: 1rem;
+}
+.side-nav ul { list-style: none; }
+.side-nav li + li { margin-top: 1rem; }
+.side-nav a {
+  display: block;
+  padding: .5rem 1rem;
+  background: #333;
+  border-radius: 4px;
+  color: #fff;
+}
+.side-nav a:hover { background: #444; }
+
+/* Hero */
+.hero {
+  background: url('https://picsum.photos/id/1003/800/300') center/cover no-repeat;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 8px;
+  margin: 1rem;
+}
+.hero h1 { font-size: 2.5rem; color: #ffeb3b; }
+.hero p { margin: .5rem 0 1rem; }
+.hero .btn {
+  padding: .5rem 1.5rem;
+  background: #ffeb3b;
+  color: #000;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Articles */
+.articles { margin: 1rem; }
+.articles h2 { margin-bottom: 1rem; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: #1c1c1c;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.card img { width: 100%; border-radius: 4px; margin-bottom: .5rem; }
+.card h3 { color: #ffeb3b; margin-bottom: .5rem; }
+
+/* Contact form */
+.contact-form { margin: 1rem; }
+.contact-form h2 { margin-bottom: 1rem; }
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+.contact-form input {
+  padding: .5rem;
+  border: none;
+  border-radius: 4px;
+}
+.contact-form button {
+  background: #ffeb3b;
+  color: #000;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+.site-footer {
+  background: #000;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
