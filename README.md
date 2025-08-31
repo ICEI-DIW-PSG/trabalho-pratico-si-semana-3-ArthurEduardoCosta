@@ -10,8 +10,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:Arthur Eduardo de Oliveira Costa
-- Matricula:902839
+- Nome: Arthur Eduardo de Oliveira Costa
+- Matricula: 902839
 - Proposta de projeto escolhida: Site do lego batman
 - Breve descrição sobre seu projeto: um site que fala sobre os jogos do Lego Batman
 
